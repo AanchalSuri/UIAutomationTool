@@ -1,0 +1,16 @@
+{
+  "name": "uiautomationtool",
+  "version": "1.0.0",
+  "description": "uiautomation tool using protractor and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./app/conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^2.3.1",
+    "protractor": "^5.1.2",
+    "protractor-cucumber-framework": "^3.1.2"
+  }
+}
